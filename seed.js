@@ -51,3 +51,4 @@ async function main() {
 main()
   .catch(err => { console.error("Seed failed:", err.message); process.exitCode = 1; })
   .finally(async () => { await mongoose.disconnect(); });
+//test
